@@ -1,25 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>simple</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title> Citron </title>
+    <meta name="generator" content="Bootply" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="http://www.szleper.com/css/bootstrap.min.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link href="http://www.szleper.com/css/styles.css" rel="stylesheet">
 </head>
-
 <body>
-  <h1>Welcome to Meteor!</h1>
 
-  {{> hello}}
-  {{> info}}
+
+<nav class="navbar navbar-default">
+    <div class="containe
+  -fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <div class="navbar-brand">
+                <a href="#" ><img src="http://www.szleper.com/logo.png" id="logo"></a><a id="titre"> Les tabacs ouverts la nuit</a>
+            </div>
+
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Les Sorties	<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li id="bars"><a href="#">Bars cachés</a></li>
+                        <li id= "boites"><a href="#">Boîtes de nuits</a></li>
+                        <li id="foot" ><a href="#">Bars pour matchs de foot</a></li>
+                        <li id="vins" ><a href="#">Bars à vins</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Les cartes utiles <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li id= "taff"><a href="#">Espaces de travail</a></li>
+                        <li id= "tabacs"><a href="#">Les tabacs ouverts la nuit</a></li>
+                        <li id= "sm" ><a href="#">Supermarchés ouverts le dimanche</a></li>
+                        <li id= "Pharma" ><a href="#">Pharmacies H24</a></li>
+                    </ul>
+                </li>
+
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Les restaurants et cafés <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li id= "terrasses"><a href="#">Les terrasses cachées</a></li>
+                        <li id= "Mcdo" ><a href="#">MacDo ouverts la nuit</a></li>
+                        <li id= "Brunchs" ><a href="#">Les brunchs</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Les cartes Hipsters <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li id= "Expos"><a href="#">Les expositions</a></li>
+                    </ul>
+                </li>
+
+
+
+
+            </ul>
+
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+
+<iframe id= "map" src="//www.google.com/maps/d/u/0/embed?mid=zFVUJ2CquSz4.kpABprdpTey8" width="100%" height="100%"></iframe>
+<!--<div id="map-canvas" class="col-xs-12"> </div>-->
+
+
+<!--CDN Google Map Api -->
+<script src="/maps.googleapis.com/maps/api/js?v=3.exp"></script>
+
+
+</div>
+</div>
+
+<!-- script references -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+<script src="http://www.szleper.com/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://www.szleper.com/js/scripts.js"></script>
 </body>
 
-<template name="hello">
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
-</template>
-
-<template name="info">
-  <h2>Learn Meteor!</h2>
-  <ul>
-    <li><a href="https://www.meteor.com/try">Do the Tutorial</a></li>
-    <li><a href="http://guide.meteor.com">Follow the Guide</a></li>
-    <li><a href="https://docs.meteor.com">Read the Docs</a></li>
-    <li><a href="https://forums.meteor.com">Discussions</a></li>
-  </ul>
-</template>
+</html>

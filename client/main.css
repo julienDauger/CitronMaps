@@ -1,1 +1,23 @@
 /* CSS declarations go here */
+html,body{
+    height:100%;
+}
+
+#map {
+    margin-top: -0px;
+}
+
+#logo {
+    margin-top: -5px;
+    height: 100%;
+}
+
+#adam {
+    height: 100%;
+}
+
+#titre {
+    height: 100%;
+    color: #d0b323;
+    text-decoration: none;
+}
